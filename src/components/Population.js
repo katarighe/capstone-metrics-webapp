@@ -11,13 +11,13 @@ const Population = () => {
   return (
     <div className="population_container">
       <div className="population_img_box">
-        <img className="world__img" src="https://svgsilh.com/svg/151588.svg" alt="World Map" />
+        <img className="world_img" src="https://svgsilh.com/svg/151588.svg" alt="World Map" />
       </div>
       <div className="center-line" />
       <div className="population_text">
         <h1>Europe</h1>
         <p>
-          {countries.length > 0 ? totalPopulation() : 'Loading...'}
+          {countries.length > 0 ? totalPopulation() : 'Loading, please wait...'}
           {' '}
           Population
         </p>
