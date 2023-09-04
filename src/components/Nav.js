@@ -1,7 +1,7 @@
 import React from 'react';
 import micro from '../assets/icons/microphone-solid.svg';
 import gear from '../assets/icons/gear-solid.svg';
-import logo from '../assets/icons/image/logoimg.jpg';
+import logo from '../assets/images/logo.png';
 
 const Nav = () => (
   <>
