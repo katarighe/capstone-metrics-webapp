@@ -44,14 +44,14 @@ const Home = () => {
       <div className="country_grid">
         {filteredCountries().length > 0 ? (
           filteredCountries().map((country) => (
-            <div className="card__flex-column" key={country.name}>
+            <div className="card_flexcolumn" key={country.name}>
               <Link
                 to={`/countrydetail/${country.id}`}
                 id={country.name}
                 onClick={(e) => {
                   onCardHandler(e);
                 }}
-                className="card__link"
+                className="card_link"
               >
                 <button
                   type="button"
@@ -75,7 +75,7 @@ const Home = () => {
             </div>
           ))
         ) : (
-          <h1 className="card_text_none">
+          <h1 className="card_text_zero">
             Country not found, please try again!
           </h1>
         )}
