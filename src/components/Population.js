@@ -13,7 +13,7 @@ const Population = () => {
       <div className="population_img_box">
         <img className="world_img" src="https://svgsilh.com/svg/151588.svg" alt="World Map" />
       </div>
-      <div className="center-line" />
+      <div className="center_line" />
       <div className="population_text">
         <h1>Europe</h1>
         <p>
