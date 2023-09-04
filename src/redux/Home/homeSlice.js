@@ -55,4 +55,5 @@ export const homeSlice = createSlice({
 });
 
 export const { search } = homeSlice.actions;
+
 export default homeSlice.reducer;
