@@ -17,7 +17,7 @@ const Population = () => {
       <div className="population_text">
         <h1>Europe</h1>
         <p>
-          {countries.length > 0 ? totalPopulation() : 'Loading, please wait...'}
+          {countries.length > 0 ? totalPopulation() : 'Loading, please wait!'}
           {' '}
           Population
         </p>
