@@ -65,4 +65,5 @@ export const countryDetailSlice = createSlice({
 });
 
 export const { countrySelectedAction } = countryDetailSlice.actions;
+
 export default countryDetailSlice.reducer;
