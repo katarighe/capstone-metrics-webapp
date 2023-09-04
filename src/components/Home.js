@@ -26,7 +26,6 @@ const Home = () => {
 
   const filteredCountries = () => {
     if (searchField.length > 0) {
-      // eslint-disable-line max-len
       return countries.filter((country) => country.name.toLowerCase().includes(searchField.toLowerCase()));
     }
     return countries;
