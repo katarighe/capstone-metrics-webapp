@@ -1,7 +1,4 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
-
-const API = 'https://restcountries.com/v3.1/name/';
 
 const initialState = {
   detailCountry: [],
@@ -13,9 +10,13 @@ const initialState = {
 export const getCountryDetail = createAsyncThunk(
   'countryDetail/getCountryDetail',
   async (countrySelected) => {
+    const API = 'https://restcountries.com/v3.1/name/';
     try {
-      const response = await axios.get(`${API}${countrySelected}`);
-      return response.data;
+      const response = await fetch(`${API}${countrySelected}`);
+      if (response.status === 200) {
+        return await response.json();
+      }
+      throw new Error(response.statusText);
     } catch (error) {
       return error.message;
     }
@@ -46,12 +47,12 @@ export const countryDetailSlice = createSlice({
           offical: countryName.official,
           population: countryName.population,
           map: `https://raw.githubusercontent.com/djaiss/mapsicon/master/all/${countryName.cca2.toLowerCase()}/vector.svg`,
-          flag: countryName.flags.png,
+          flag: countryName.flags.svg,
           area: countryName.area,
           continents: countryName.continents,
           timezones: countryName.timezones[0],
-          languages: countryName.languages,
-          coatOfArms: countryName.coatOfArms,
+          fifa: countryName.fifa,
+          coatOfArms: countryName.coatOfArms.svg,
         })),
         status: 'succeeded',
       }))

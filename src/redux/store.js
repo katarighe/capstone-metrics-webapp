@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
 import homeReducer from './Home/homeSlice';
-import countryReducer from './countryDetail/countrySlice';
+import countryReducer from './Country/countrySlice';
 
 const store = configureStore({
   reducer: {

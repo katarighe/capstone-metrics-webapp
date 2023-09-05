@@ -2,6 +2,7 @@ import React from 'react';
 import micro from '../assets/icons/microphone-solid.svg';
 import gear from '../assets/icons/gear-solid.svg';
 import logo from '../assets/images/logo.png';
+import './Nav.css';
 
 const Nav = () => (
   <>
@@ -12,7 +13,7 @@ const Nav = () => (
         </div>
       </div>
 
-      <span className="navtext_center">Population</span>
+      <span className="navtext_center">Mini World Atlas</span>
 
       <div className="navbox">
         <button type="button">
