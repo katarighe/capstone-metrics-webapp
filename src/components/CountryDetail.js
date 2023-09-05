@@ -74,14 +74,14 @@ const CountryDetail = () => {
             </div>
             <div className="country_detail_overview_box_text">
               <h3>Capital</h3>
-              <p>{country.capital}</p>
+              <p>{country[0].capital}</p>
               <button type="button">
                 <img src={rightArrow} alt="Right Arrow" />
               </button>
             </div>
             <div className="country_detail_overview_box_text color_black">
               <h3>Continent</h3>
-              <p>{country.continents}</p>
+              <p>{country[0].continents}</p>
               <button type="button">
                 <img src={rightArrow} alt="Right Arrow" />
               </button>
@@ -95,7 +95,7 @@ const CountryDetail = () => {
             </div>
             <div className="country_detail_overview_box_text color_black">
               <h3>Languages</h3>
-              <p>{country.languages}</p>
+              <p>{country[0].languages}</p>
               <button type="button">
                 <img src={rightArrow} alt="Right Arrow" />
               </button>
