@@ -9,6 +9,7 @@ const Population = () => {
     const formatter = total.toLocaleString('en-US');
     return formatter;
   };
+
   return (
     <div className="population">
       <div className="population_img_box">
