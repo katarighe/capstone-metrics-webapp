@@ -14,7 +14,7 @@ const Search = () => {
       <img className="search_icon" src={searchLogo} alt="" />
       <input
         type="text"
-        placeholder="Search"
+        placeholder="Search country"
         className="search_input"
         onChange={onSearchHandler}
       />
