@@ -7,7 +7,7 @@ import store from '../redux/store';
 test('Check if the App component is rendered correctly without crashing', () => {
   const tree = render(
     <Provider store={store}>
-        <App />
+      <App />
     </Provider>,
   );
   expect(tree).toMatchSnapshot();
