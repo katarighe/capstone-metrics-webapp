@@ -99,7 +99,7 @@ const CountryDetail = () => {
           </div>
         </div>
       ) : (
-        <h1 className="error_back">Sorry, please go back! </h1>
+        <h1 className="error_back">Error, please go back! </h1>
       )}
       <Footer />
     </div>
