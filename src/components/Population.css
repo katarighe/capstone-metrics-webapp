@@ -17,8 +17,8 @@
 .population_img_box .world_img {
   width: 100%;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 5px;
   fill: #52525b;
   margin-top: 2rem;
 }
