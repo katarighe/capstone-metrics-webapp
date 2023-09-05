@@ -7,12 +7,11 @@ import store from '../redux/store';
 
 test('Check if the CountryDetail component is rendered correctly', () => {
   const tree = render(
-    <BrowserRouter>
-      <Provider store={store}>
+    <Provider store={store}>
+      <BrowserRouter>
         <CountryDetail />
-      </Provider>
-      ,
-    </BrowserRouter>,
+      </BrowserRouter>
+    </Provider>,
   );
   expect(tree).toMatchSnapshot();
 });
