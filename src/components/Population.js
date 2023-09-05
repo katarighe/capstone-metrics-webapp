@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import './Population.css';
 
 const Population = () => {
   const countries = useSelector((state) => state.country.countriesData);
@@ -9,17 +10,16 @@ const Population = () => {
     return formatter;
   };
   return (
-    <div className="population_container">
+    <div className="population">
       <div className="population_img_box">
-        <img className="world_img" src="https://svgsilh.com/svg/306235.svg" alt="World Map" />
+        <img className="world_img" src="https://svgsilh.com/svg/306338.svg" alt="World Map" />
       </div>
       <div className="center_line" />
       <div className="population_text">
-        <h1>World</h1>
+        <h1>World Population</h1>
         <p>
           {countries.length > 0 ? totalPopulation() : 'Loading, please wait!'}
           {' '}
-          Population
         </p>
       </div>
     </div>
