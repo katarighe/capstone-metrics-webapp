@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import arrowLeft from '../assets/icons/angle-left-solid.svg';
 import micro from '../assets/icons/microphone-solid.svg';
 import gear from '../assets/icons/gear-solid.svg';
+import './NavDetail.css';
 
 const NavDetail = () => {
   const countrySelected = useSelector(
