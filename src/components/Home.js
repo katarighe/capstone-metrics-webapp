@@ -69,6 +69,7 @@ const Home = () => {
                 </div>
                 <div id={country.name} className="card_text">
                   <h1 id={country.name}>{country.name}</h1>
+                  <p id={country.name}>{country.capital}</p>
                   <p id={country.name}>{country.population}</p>
                 </div>
               </Link>
