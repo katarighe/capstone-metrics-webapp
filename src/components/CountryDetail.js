@@ -20,10 +20,6 @@ const CountryDetail = () => {
               <h1>{country[0].name}</h1>
               <p>
                 {' '}
-                (
-                {country.official}
-                {' '}
-                )
               </p>
             </div>
           </div>
@@ -54,7 +50,7 @@ const CountryDetail = () => {
               <h3>Coat of Arms</h3>
               <img
                 className="country_coat_of_arms"
-                src={country.coatOfArms}
+                src={country[0].coatOfArms}
                 alt={`${country[0].name} Coat of Arms`}
               />
               <button type="button">
@@ -94,8 +90,8 @@ const CountryDetail = () => {
               </button>
             </div>
             <div className="country_detail_overview_box_text color_black">
-              <h3>Languages</h3>
-              <p>{country.languages}</p>
+              <h3>Code</h3>
+              <p>{country[0].fifa}</p>
               <button type="button">
                 <img src={rightArrow} alt="Right Arrow" />
               </button>
