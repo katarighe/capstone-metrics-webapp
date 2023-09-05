@@ -32,7 +32,7 @@ const CountryDetail = () => {
             <div className="country_detail_overview_box_text color_blue">
               <h3>Area</h3>
               <p>
-                {country[0].area}
+                {country[0].area.toLocaleString('en-US')}
                 {' '}
                 km
               </p>
@@ -43,7 +43,7 @@ const CountryDetail = () => {
             <div className="country_detail_overview_box_text">
               <h3>Population</h3>
               <p>
-                {country[0].population}
+                {country[0].population.toLocaleString('en-US')}
                 {' '}
               </p>
               <button type="button">
