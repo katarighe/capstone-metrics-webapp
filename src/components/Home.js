@@ -5,7 +5,7 @@ import { getCountries } from '../redux/Home/homeSlice';
 import {
   getCountryDetail,
   countrySelectedAction,
-} from '../redux/countryDetail/countrySlice';
+} from '../redux/Country/countrySlice';
 import Search from './Search';
 import Population from './Population';
 import Nav from './Nav';
