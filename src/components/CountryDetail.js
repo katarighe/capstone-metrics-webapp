@@ -95,7 +95,7 @@ const CountryDetail = () => {
             </div>
             <div className="country_detail_overview_box_text color_black">
               <h3>Languages</h3>
-              <p>{country[0].languages}</p>
+              <p>{country.languages}</p>
               <button type="button">
                 <img src={rightArrow} alt="Right Arrow" />
               </button>
