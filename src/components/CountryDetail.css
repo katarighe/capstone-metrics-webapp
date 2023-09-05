@@ -8,7 +8,7 @@
   height: 20rem;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1.6rem;
+  padding: 0 1.5rem;
   background-color: #4177c2;
 }
 
@@ -57,7 +57,7 @@
 
 .country_detail_overview_box_text h3,
 p {
-  font-size: 1.8rem;
+  font-size: 1.75rem;
   color: #fff;
 }
 
