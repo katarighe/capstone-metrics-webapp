@@ -29,7 +29,7 @@ const CountryDetail = () => {
           </div>
           <h2 className="country_overview_headline">Country Overview</h2>
           <div className="country_detail_overview_box">
-            <div className="country_detail_overview_box_text color_blue">
+            <div className="country_detail_overview_box_text">
               <h3>Area</h3>
               <p>
                 {country[0].area.toLocaleString('en-US')}
@@ -40,7 +40,7 @@ const CountryDetail = () => {
                 <img src={rightArrow} alt="Right Arrow" />
               </button>
             </div>
-            <div className="country_detail_overview_box_text">
+            <div className="country_detail_overview_box_text color_black">
               <h3>Population</h3>
               <p>
                 {country[0].population.toLocaleString('en-US')}
@@ -50,8 +50,19 @@ const CountryDetail = () => {
                 <img src={rightArrow} alt="Right Arrow" />
               </button>
             </div>
-            <div className="country_detail_overview_box_text color_blue">
-              <h3>Country Flag</h3>
+            <div className="country_detail_overview_box_text">
+              <h3>Coat of Arms</h3>
+              <img
+                className="country_coat_of_arms"
+                src={country.coatOfArms}
+                alt={`${country[0].name} Coat of Arms`}
+              />
+              <button type="button">
+                <img src={rightArrow} alt="Right Arrow" />
+              </button>
+            </div>
+            <div className="country_detail_overview_box_text color_black">
+              <h3>Flag</h3>
               <img
                 className="country_flag"
                 src={country[0].flag}
@@ -68,7 +79,7 @@ const CountryDetail = () => {
                 <img src={rightArrow} alt="Right Arrow" />
               </button>
             </div>
-            <div className="country_detail_overview_box_text color_blue">
+            <div className="country_detail_overview_box_text color_black">
               <h3>Continent</h3>
               <p>{country.continents}</p>
               <button type="button">
@@ -82,7 +93,7 @@ const CountryDetail = () => {
                 <img src={rightArrow} alt="Right Arrow" />
               </button>
             </div>
-            <div className="country_detail_overview_box_text color_blue">
+            <div className="country_detail_overview_box_text color_black">
               <h3>Languages</h3>
               <p>{country.languages}</p>
               <button type="button">

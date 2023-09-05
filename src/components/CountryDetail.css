@@ -29,7 +29,7 @@
 .country_overview_headline {
   font-size: 1.5rem;
   color: #fff;
-  background-color: #000;
+  background-color: purple;
   padding: 1rem 1.6rem;
 }
 
@@ -51,6 +51,10 @@
   width: 5rem;
 }
 
+.country_detail_overview_box_text .country_coat_of_arms {
+  width: 5rem;
+}
+
 .country_detail_overview_box_text h3,
 p {
   font-size: 1.8rem;
@@ -63,8 +67,8 @@ p {
   cursor: pointer;
 }
 
-.color_blue {
-  background-color: #ddd44e;
+.color_black {
+  background-color: #000;
 }
 
 .error_back {
