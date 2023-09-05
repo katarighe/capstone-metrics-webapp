@@ -43,14 +43,13 @@ export const countryDetailSlice = createSlice({
           id: countryName.name.common,
           name: countryName.name.common,
           capital: countryName.capital,
+          offical: countryName.official,
           population: countryName.population,
           map: `https://raw.githubusercontent.com/djaiss/mapsicon/master/all/${countryName.cca2.toLowerCase()}/vector.svg`,
           flag: countryName.flags.png,
           area: countryName.area,
+          continents: countryName.continents,
           timezones: countryName.timezones[0],
-          ccn3: countryName.ccn3,
-          latitude: countryName.latlng[0],
-          longitude: countryName.latlng[1],
           languages: countryName.languages,
           coatOfArms: countryName.coatOfArms,
         })),
@@ -65,4 +64,5 @@ export const countryDetailSlice = createSlice({
 });
 
 export const { countrySelectedAction } = countryDetailSlice.actions;
+
 export default countryDetailSlice.reducer;
