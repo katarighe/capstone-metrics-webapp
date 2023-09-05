@@ -11,6 +11,7 @@ import Population from './Population';
 import Nav from './Nav';
 import Footer from './Footer';
 import CircleArrow from '../assets/icons/circle-arrow-right-solid.svg';
+import './Home.css';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -26,7 +27,8 @@ const Home = () => {
 
   const filteredCountries = () => {
     if (searchField.length > 0) {
-      return countries.filter((country) => country.name.toLowerCase().includes(searchField.toLowerCase()));
+      return countries.filter((country) => country.name.toLowerCase()
+        .includes(searchField.toLowerCase()));
     }
     return countries;
   };
@@ -37,49 +39,43 @@ const Home = () => {
   };
 
   return (
-    <div className="home_container">
+    <div className="home_containter">
       <Nav />
       <Population />
       <Search />
       <div className="country_grid">
-        {filteredCountries().length > 0 ? (
+        {
+        filteredCountries().length > 0 ? (
           filteredCountries().map((country) => (
-            <div className="card_flexcolumn" key={country.name}>
+            <div className="card_column" key={country.name}>
               <Link
                 to={`/countrydetail/${country.id}`}
                 id={country.name}
-                onClick={(e) => {
-                  onCardHandler(e);
-                }}
+                onClick={(e) => { onCardHandler(e); }}
                 className="card_link"
               >
-                <button
-                  type="button"
-                  id={country.name}
-                  className="country_arrow_link"
-                >
-                  <img
-                    src={CircleArrow}
-                    id={country.name}
-                    alt="Circle Arrow Button Link"
-                  />
+                <button type="button" id={country.name} className="arrow_link">
+                  <img src={CircleArrow} id={country.name} alt="Circle Arrow" />
                 </button>
-                <div id={country.name} className="grid_image">
-                  <img id={country.name} src={country.map} alt={country.cca2} />
+                <div id={country.name} className="mapgrid_image">
+                  <img
+                    id={country.name}
+                    src={country.map}
+                    alt={country.cca2}
+                  />
                 </div>
-                <div id={country.name} className="card_text">
+                <div id={country.name} className="country_text">
                   <h1 id={country.name}>{country.name}</h1>
                   <p id={country.name}>{country.capital}</p>
-                  <p id={country.name}>{country.population}</p>
                 </div>
               </Link>
             </div>
+
           ))
         ) : (
-          <h1 className="card_text_zero">
-            Country not found, please try again!
-          </h1>
-        )}
+          <h1 className="country_text_zero">Country not found, please try again!</h1>
+        )
+}
       </div>
       <Footer />
     </div>
