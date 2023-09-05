@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: #ee82ee;
+  background-color: #800080;
   padding: 0 0 0 1.6rem;
 }
 
@@ -16,8 +16,9 @@
   font-weight: 400;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
-  background-color: #ee82ee;
+  background-color: #800080;
   transition: all 0.3s;
+  text-align: center;
 }
 
 .search_input::placeholder {
@@ -26,5 +27,5 @@
 
 .search_container .search_icon {
   width: 2rem;
-  background-color: #ee82ee;
+  background-color: #800080;
 }
