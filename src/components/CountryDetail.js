@@ -17,6 +17,11 @@ const CountryDetail = () => {
             </div>
             <div className="detail__header__box__text">
               <h1>{country[0].name}</h1>
+              <h2>Official Name</h2>
+              <p>
+                {country.official}
+                {' '}
+              </p>
               <h2>Current Population</h2>
               <p>
                 {country[0].population}

@@ -43,6 +43,7 @@ export const countryDetailSlice = createSlice({
           id: countryName.name.common,
           name: countryName.name.common,
           capital: countryName.capital,
+          offical: countryName.official,
           population: countryName.population,
           map: `https://raw.githubusercontent.com/djaiss/mapsicon/master/all/${countryName.cca2.toLowerCase()}/vector.svg`,
           flag: countryName.flags.png,
