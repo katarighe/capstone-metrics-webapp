@@ -17,7 +17,7 @@ const Population = () => {
       </div>
       <div className="center_line" />
       <div className="population_text">
-        <h1>World Population</h1>
+        <h1>Population</h1>
         <p>
           {countries.length > 0 ? totalPopulation() : 'Loading, please wait!'}
           {' '}
