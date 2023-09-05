@@ -13,7 +13,7 @@ const Nav = () => (
         </div>
       </div>
 
-      <span className="navtext_center">World Atlas</span>
+      <span className="navtext_center">Mini World Atlas</span>
 
       <div className="navbox">
         <button type="button">
