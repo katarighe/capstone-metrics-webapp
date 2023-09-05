@@ -51,7 +51,7 @@ export const countryDetailSlice = createSlice({
           continents: countryName.continents,
           timezones: countryName.timezones[0],
           languages: countryName.languages,
-          coatOfArms: countryName.coatOfArms,
+          coatOfArms: countryName.coatOfArms.png,
           currencies: countryName.currencies,
         })),
         status: 'succeeded',
