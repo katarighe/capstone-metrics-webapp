@@ -27,7 +27,7 @@ const CountryDetail = () => {
               </p>
             </div>
           </div>
-          <h2 className="country_overview_headline">Country Overview</h2>
+          <h2 className="country_overview_headline">Overview</h2>
           <div className="country_detail_overview_box">
             <div className="country_detail_overview_box_text">
               <h3>Area</h3>
