@@ -5,9 +5,9 @@ import Footer from '../components/Footer';
 
 test('Check if the Footer component is rendered correctly', () => {
   const tree = render(
-      <BrowserRouter>
-        <Footer />
-      </BrowserRouter>
+    <BrowserRouter>
+      <Footer />
+    </BrowserRouter>,
   );
   expect(tree).toMatchSnapshot();
 });

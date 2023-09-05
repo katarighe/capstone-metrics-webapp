@@ -5,14 +5,14 @@ import { BrowserRouter } from 'react-router-dom';
 import store from '../redux/store';
 import Home from '../components/Home';
 
-it('Renders the Home component without crashing', () => {
-  const root = render.create(
+test('Check if the Home component is rendered correctly', () => {
+  const tree = render(
     <BrowserRouter>
       <Provider store={store}>
         <Home />
       </Provider>
       ,
     </BrowserRouter>,
-  ).toJSON();
-  expect(root).toMatchSnapshot();
+  );
+  expect(tree).toMatchSnapshot();
 });
