@@ -18,9 +18,11 @@ const NavDetail = () => {
         </Link>
 
         <span className="navtext_center">
+          Details of
+          {' '}
           {countrySelected}
           {' '}
-          Details
+          {' '}
         </span>
 
         <div className="navbox">
