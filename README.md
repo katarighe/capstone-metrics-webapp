@@ -66,8 +66,18 @@ The webapp has been deployed to Netlify and is now available for you to try. Cli
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo of the Project](https://benevolent-crostata-5c4bea.netlify.app/) (Please convert it to mobile mode for better viewing as this is a mobile app.)
+- [Live Demo of the Project](https://benevolent-crostata-5c4bea.netlify.app/)
 - [Video Presentation of the Project]() 
+
+Due to the fact that it is a web app that is not optimized for desktop use, the live demo link is best viewed in mobile mode.
+
+To change the resolution into mobile, you can use the Inspect method which is available in Google Chrome or Microsoft Edge. Here are the following steps:
+
+- Open the live link of the website (listed above). 
+- Right click and select *"Inspect"* from the dropdown menu. 
+- In the *Inspect* section, select the mobile device you want to simulate from the list.
+- You can also change the dimension to **830 x 630** by customizing it on the *Responsive* section.
+- The website will now be displayed in the mobile view of the browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
