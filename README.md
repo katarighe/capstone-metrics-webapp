@@ -66,7 +66,7 @@ The webapp has been deployed to Netlify and is now available for you to try. Cli
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo of the Project]()
+- [Live Demo of the Project](https://benevolent-crostata-5c4bea.netlify.app/) (Please convert it to mobile mode for better viewing as this is a mobile app.)
 - [Video Presentation of the Project]() 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
