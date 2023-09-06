@@ -25,16 +25,18 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Travellers' Hub <a name="about-project"></a>
+# 📖 Mini World Atlas <a name="about-project"></a>
 
-This React capstone project for Microverse is a mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API. The API that was selected is called REST countries, where you can get information about countries via a RESTful API.
+**Mini World Atlas** is a mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API called REST countries, where you can get information about countries via a RESTful API.
 
-**Space Travellers' Hub** is a single-page application (SPA) built with React that uses real-time data from the SpaceX API. Users can book rockets and join selected space missions, and the selected services are displayed on the user's profile page.
+REST Countries API is a RESTful API that provides information about countries. It is a free and open-source API, and it does not require an API key. The API is based on the JSON (JavaScript Object Notation) format, and it provides information about a country's name, capital, population, area, borders, currencies, languages, and more.
 
-The project is built with various programming tools such as React, JSX, CSS, and JavaScript. It is also deployed on Netifly, so you can try it out by visiting the live demo.
+This project was created as part of the Microverse Full-Stack Web Development Program, which is a 12-month program that teaches students the skills they need to become full-stack web developers. The program includes training on a variety of programming tools, such as React, JSX, CSS, and JavaScript.
+
+The webapp has been deployed to Netlify and is now available for you to try. Click the link below to visit the live demo.
 
 ## 🛠 Built With <a name="built-with"></a>
-* React
+* React / Redux
 * JSX
 * CSS
 * Javascript ES6
@@ -43,16 +45,20 @@ The project is built with various programming tools such as React, JSX, CSS, and
 * React Testing Library
 * ESLint
 * Stylelint
+* Webpack
+* Babel
+* External API (Rest Countries API)
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> The three key features of this project include the following.
+> The key features of this project include the following.
 
-- **Book SpaceX rockets and dragons, cancel the previously made booking.**
-- **Join SpaceX space missions, leave the mission the user he/she has joined earlier.**
-- **View all reserved rockets, space missions, and dragons.**
+- **Fetchs and displays data from API from nearly 200 countries and territories.**
+- **Displays the estimated population of the world, also directly from the API.**
+- **Displays the country detail with their Area, Population, Coat of Arms, Flag, Capital City, Continent, Time Zone, and Country Code (3 letters).**
+- **Uses a mobile web responsive layout format that looks good and are easy to use on mobile devices.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,14 +66,15 @@ The project is built with various programming tools such as React, JSX, CSS, and
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Live Demo of the Project: https://peppy-unicorn-49207c.netlify.app/
+- [Live Demo of the Project]()
+- [Video Presentation of the Project]() 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-Get ready to explore Space Travellers' Hub with these steps:
+Get ready to explore Mini World Atlas Webapp with these steps:
 
 ### Prerequisites <a name="prerequisites"></a>
 
@@ -134,11 +141,31 @@ Launch the app with the following command
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Here are some future features that could be added to the Space Travellers' Hub app in the future.
+> Here are *some future features* that could be added to the Mini World Atlas Webapp in the future.
 
-- **User authentication and authorization:** This would allow users to create accounts, sign in and out, and have their own personal items.
+- **Interactive maps:** The maps in the Mini World Atlas Webapp will be made more interactive, allowing users to zoom in and out, pan around, and explore different countries in more detail.
 
-These are just a few ideas for future features that could be added to the Space Travellers' Hub app. The specific features that are added will depend on the needs and wants of the users.
+- **More detailed country profiles:** The country profiles in the Mini World Atlas Webapp will be expanded to include more information about each country, such as its history, culture, economy, and government.
+
+- **New languages:** The Mini World Atlas Webapp will be translated into more languages, making it accessible to a wider audience.
+
+- **More data sources:** The Mini World Atlas Webapp will be powered by more data sources, providing users with the most up-to-date information about countries.
+
+- **Collaboration tools:** The Mini World Atlas Webapp will be made more collaborative, allowing users to share information and collaborate on projects.
+
+> Moreover, here are some other possible features that could be added in the future:
+
+- A **search bar** to make it easier to find information about specific countries.
+
+- The ability to **add notes and comments** to country profiles.
+
+- The ability to **create custom maps**.
+
+- The ability to **export data** from the Mini World Atlas Webapp.
+
+These are just a *few ideas* for future features that could be added to the Mini World Atlas Webapp. 
+
+The specific features that are added will depend on the needs and wants of the users.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,6 +193,7 @@ Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my
 
 - Project supervised by [Microverse](https//www.microverse.org/)
 - [Creative Commons 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
+- Link to the [REST Countries API](https://restcountries.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
