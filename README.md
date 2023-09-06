@@ -202,6 +202,8 @@ Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my
 - Project supervised by [Microverse](https//www.microverse.org/)
 - [Creative Commons 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
 - [REST Countries API](https://restcountries.com/)
+- Original design theme is by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- [Link to the original design theme](https://behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29) by Nelson Sakwa
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
