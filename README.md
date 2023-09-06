@@ -53,7 +53,7 @@ The webapp has been deployed to Netlify and is now available for you to try. Cli
 
 ### Key Features <a name="key-features"></a>
 
-> The key features of this project include the following.
+The key features of this project include the following.
 
 - **Fetchs and displays data from API, which lists almost 200 countries and territories.**
 - **Displays the estimated population of the world on the homepage, also directly from the API.**
