@@ -55,8 +55,8 @@ The webapp has been deployed to Netlify and is now available for you to try. Cli
 
 > The key features of this project include the following.
 
-- **Fetchs and displays data from API from nearly 200 countries and territories.**
-- **Displays the estimated population of the world, also directly from the API.**
+- **Fetchs and displays data from API, which lists almost 200 countries and territories.**
+- **Displays the estimated population of the world on the homepage, also directly from the API.**
 - **Displays the country detail with their Area, Population, Coat of Arms, Flag, Capital City, Continent, Time Zone, and Country Code (3 letters).**
 - **Uses a mobile web responsive layout format that looks good and are easy to use on mobile devices.**
 
