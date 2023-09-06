@@ -47,7 +47,7 @@ The webapp has been deployed to Netlify and is now available for you to try. Cli
 * Stylelint
 * Webpack
 * Babel
-* External API (Rest Countries API)
+* External API (REST Countries)
 
 <!-- Features -->
 
