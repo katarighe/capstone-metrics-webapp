@@ -1,10 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Mobile */
+@media (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 65%;
+    overflow-x: hidden;
+  }
 }
 
-html {
-  font-size: 65%;
-  overflow-x: hidden;
+/* Desktop */
+@media (min-width: 1440px) {
+  * {
+    margin: 0;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 100%;
+    overflow-x: scroll;
+  }
 }
