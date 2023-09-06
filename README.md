@@ -29,7 +29,7 @@
 
 **Mini World Atlas** is a React mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API called REST countries, where you can get information about countries via a RESTful API.
 
-REST Countries API is a RESTful API that provides information about 200+ countries and territories. It is a free and open-source API, and it does not require an API key. The API is based on the JSON (JavaScript Object Notation) format, and it provides information about a country's name, capital, population, area, borders, currencies, languages, and more.
+REST Countries API is a RESTful API that provides information about 200+ countries and territories. It is a free and open-source API, and it does not require an API key. The API is based on the JSON (JavaScript Object Notation) format, and it provides information about a country's name, flag, coat of arms, capital, population, area, borders, currencies, languages, and more.
 
 This project was created as part of the Microverse Full-Stack Web Development Program, which is a 12-month program that teaches students the skills they need to become full-stack web developers. The program includes training on a variety of programming tools, such as React, JSX, CSS, and JavaScript.
 
@@ -57,7 +57,7 @@ The webapp has been deployed to Netlify and is now available for you to try. Cli
 
 - **Fetchs and displays data from API, which lists almost 200 countries and territories.**
 - **Displays the estimated population of the world on the homepage, also directly from the API.**
-- **Displays the country detail with their Area, Population, Coat of Arms, Flag, Capital City, Continent, Time Zone, and Country Code (3 letters).**
+- **Displays the country detail with their Area, Population, Coat of Arms, Flag, Capital City, Continent, Time Zone, and a 3-letter Country Code.**
 - **Uses a mobile web responsive layout format that looks good and are easy to use on mobile devices.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
