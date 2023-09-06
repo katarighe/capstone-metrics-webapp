@@ -27,7 +27,7 @@
 
 # 📖 Mini World Atlas <a name="about-project"></a>
 
-**Mini World Atlas** is a mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API called REST countries, where you can get information about countries via a RESTful API.
+**Mini World Atlas** is a React mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API called REST countries, where you can get information about countries via a RESTful API.
 
 REST Countries API is a RESTful API that provides information about countries. It is a free and open-source API, and it does not require an API key. The API is based on the JSON (JavaScript Object Notation) format, and it provides information about a country's name, capital, population, area, borders, currencies, languages, and more.
 
