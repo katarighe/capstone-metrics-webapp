@@ -163,9 +163,7 @@ Launch the app with the following command
 
 - The ability to **export data** from the Mini World Atlas Webapp.
 
-These are just a *few ideas* for future features that could be added to the Mini World Atlas Webapp. 
-
-The specific features that are added will depend on the needs and wants of the users.
+The following are a few ideas for future features that could be added to the Mini World Atlas Webapp. The specific features that are added will depend on the feedback and suggestions of users.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
