@@ -163,7 +163,7 @@ Launch the app with the following command
 
 - **Collaboration tools:** The Mini World Atlas Webapp will be made more collaborative, allowing users to share information and collaborate on projects.
 
-> Moreover, here are some other possible features that could be added in the future:
+Moreover, here are some other possible features that could be added in the future:
 
 - A **search bar** to make it easier to find information about specific countries.
 
