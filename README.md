@@ -66,8 +66,8 @@ The key features of this project include the following.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo of the Project](https://benevolent-crostata-5c4bea.netlify.app/)
-- [Video Presentation of the Project](https://www.loom.com/share/5aa00e1311db43879505ce828a033304) 
+- [Live Demo](https://benevolent-crostata-5c4bea.netlify.app/)
+- [Video Presentation](https://www.loom.com/share/5aa00e1311db43879505ce828a033304) 
 
 Due to the fact that it is a web app that is not optimized for desktop use, the live demo link is best viewed in mobile mode.
 
