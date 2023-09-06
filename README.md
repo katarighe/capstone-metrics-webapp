@@ -151,7 +151,7 @@ Launch the app with the following command
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Here are *some future features* that could be added to the Mini World Atlas Webapp in the future.
+Here are *some future features* that could be added to the Mini World Atlas Webapp in the future.
 
 - **Interactive maps:** The maps in the Mini World Atlas Webapp will be made more interactive, allowing users to zoom in and out, pan around, and explore different countries in more detail.
 
