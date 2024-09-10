@@ -43,6 +43,7 @@ The webapp has been deployed to Netlify and is now available for you to try. Cli
 * Visual Studio Code
 * Jest
 * React Testing Library
+* Node.JS
 * ESLint
 * Stylelint
 * Webpack
